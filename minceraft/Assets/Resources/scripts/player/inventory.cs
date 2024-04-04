@@ -69,7 +69,7 @@ public class inventory : MonoBehaviour {
 	}
 	
 	void Update(){
-		if(collid1[0] != null && !collid1[2].GetComponent<inventoryhelper>().holding){
+		if(collid1[0] != null && collid1[2] != null && collid1[2].GetComponent<inventoryhelper>() && !collid1[2].GetComponent<inventoryhelper>().holding){
 			if(master.lefthand.GetComponent<ViveControllerVR>().getPinchUp()){
 				collid1[0].parent = collid1[1];
 				collid1[0].GetComponent<item>().scal *= (1/1.5f);
@@ -78,7 +78,7 @@ public class inventory : MonoBehaviour {
 				
 			}	
 		}
-		if(collid2[0] != null && !collid2[2].GetComponent<inventoryhelper>().holding){
+		if(collid2[0] != null && collid2[2] != null && collid2[2].GetComponent<inventoryhelper>() && !collid2[2].GetComponent<inventoryhelper>().holding){
 			if(master.righthand.GetComponent<ViveControllerVR>().getPinchUp()){
 				collid2[0].parent = collid2[1];
 				collid2[0].GetComponent<item>().scal *= (1/1.5f);

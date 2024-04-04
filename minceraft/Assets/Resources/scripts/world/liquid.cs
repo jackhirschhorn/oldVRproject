@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class liquid {
+public class liquid : MonoBehaviour {
 	public int id; //id,-1 = air, water = 0, lava = 2, ect
 	public bool[] sources = new bool[7]; //where is the source? north/west/south/east/up/down(pressure)/none
 	public int level; //water level

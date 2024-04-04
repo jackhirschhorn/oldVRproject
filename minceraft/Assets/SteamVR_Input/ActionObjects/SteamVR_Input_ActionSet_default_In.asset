@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8819fca107659244dade9f5d6bb45200, type: 3}
+  m_Name: SteamVR_Input_ActionSet_default_In
+  m_EditorClassIdentifier: 
+  actionSet: {fileID: 0}
+  listDirection: 0
+  actions:
+  - {fileID: 11400000, guid: 642ab498235ef3b48be1086cc23fb1b7, type: 2}
+  - {fileID: 11400000, guid: 5420079e28c81f543b13c31003d42033, type: 2}
+  - {fileID: 11400000, guid: 0c902d8d01d1bcb438152728c9f4165c, type: 2}
+  - {fileID: 11400000, guid: 7e13d4cf2a5bdd344b11d00885a0b9bd, type: 2}
+  - {fileID: 11400000, guid: 25d59551f978dec40aec8d3156730888, type: 2}
+  - {fileID: 11400000, guid: dfdab76bc1e264c4da8343c94019ae62, type: 2}
+  - {fileID: 11400000, guid: 6b13d074051121d479023f00d04f31e2, type: 2}
+  - {fileID: 11400000, guid: 5311929d747385a46a2be312e10bd6a4, type: 2}
+  - {fileID: 11400000, guid: 5cdff904da3105040ad38db6715b3984, type: 2}
+  - {fileID: 11400000, guid: a1309b750af40854eb25a25dd997d0f2, type: 2}
+  - {fileID: 11400000, guid: 72d863ddd561b964bb013c08e46069aa, type: 2}
+  InteractUI: {fileID: 11400000, guid: 642ab498235ef3b48be1086cc23fb1b7, type: 2}
+  Teleport: {fileID: 11400000, guid: 5420079e28c81f543b13c31003d42033, type: 2}
+  GrabPinch: {fileID: 11400000, guid: 0c902d8d01d1bcb438152728c9f4165c, type: 2}
+  GrabGrip: {fileID: 11400000, guid: 7e13d4cf2a5bdd344b11d00885a0b9bd, type: 2}
+  Pose: {fileID: 11400000, guid: 25d59551f978dec40aec8d3156730888, type: 2}
+  SkeletonLeftHand: {fileID: 11400000, guid: dfdab76bc1e264c4da8343c94019ae62, type: 2}
+  SkeletonRightHand: {fileID: 11400000, guid: 6b13d074051121d479023f00d04f31e2, type: 2}
+  Squeeze: {fileID: 11400000, guid: 5311929d747385a46a2be312e10bd6a4, type: 2}
+  touchpad: {fileID: 11400000, guid: 5cdff904da3105040ad38db6715b3984, type: 2}
+  touchpos: {fileID: 11400000, guid: a1309b750af40854eb25a25dd997d0f2, type: 2}
+  menubutton: {fileID: 11400000, guid: 72d863ddd561b964bb013c08e46069aa, type: 2}

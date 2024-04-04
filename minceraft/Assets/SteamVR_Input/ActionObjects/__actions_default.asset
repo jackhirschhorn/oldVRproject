@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e105b8fb9dc97b04181b145968d4c05f, type: 3}
+  m_Name: __actions_default
+  m_EditorClassIdentifier: 
+  allActions:
+  - {fileID: 11400000, guid: 642ab498235ef3b48be1086cc23fb1b7, type: 2}
+  - {fileID: 11400000, guid: 5420079e28c81f543b13c31003d42033, type: 2}
+  - {fileID: 11400000, guid: 0c902d8d01d1bcb438152728c9f4165c, type: 2}
+  - {fileID: 11400000, guid: 7e13d4cf2a5bdd344b11d00885a0b9bd, type: 2}
+  - {fileID: 11400000, guid: 25d59551f978dec40aec8d3156730888, type: 2}
+  - {fileID: 11400000, guid: dfdab76bc1e264c4da8343c94019ae62, type: 2}
+  - {fileID: 11400000, guid: 6b13d074051121d479023f00d04f31e2, type: 2}
+  - {fileID: 11400000, guid: 5311929d747385a46a2be312e10bd6a4, type: 2}
+  - {fileID: 11400000, guid: 5cdff904da3105040ad38db6715b3984, type: 2}
+  - {fileID: 11400000, guid: a1309b750af40854eb25a25dd997d0f2, type: 2}
+  - {fileID: 11400000, guid: 72d863ddd561b964bb013c08e46069aa, type: 2}
+  - {fileID: 11400000, guid: ee01e9eddb72b0540ba204e2a271c439, type: 2}
+  nonVisualInActions:
+  - {fileID: 11400000, guid: 642ab498235ef3b48be1086cc23fb1b7, type: 2}
+  - {fileID: 11400000, guid: 5420079e28c81f543b13c31003d42033, type: 2}
+  - {fileID: 11400000, guid: 0c902d8d01d1bcb438152728c9f4165c, type: 2}
+  - {fileID: 11400000, guid: 7e13d4cf2a5bdd344b11d00885a0b9bd, type: 2}
+  - {fileID: 11400000, guid: 5311929d747385a46a2be312e10bd6a4, type: 2}
+  - {fileID: 11400000, guid: 5cdff904da3105040ad38db6715b3984, type: 2}
+  - {fileID: 11400000, guid: a1309b750af40854eb25a25dd997d0f2, type: 2}
+  - {fileID: 11400000, guid: 72d863ddd561b964bb013c08e46069aa, type: 2}
+  visualActions:
+  - {fileID: 11400000, guid: 25d59551f978dec40aec8d3156730888, type: 2}
+  - {fileID: 11400000, guid: dfdab76bc1e264c4da8343c94019ae62, type: 2}
+  - {fileID: 11400000, guid: 6b13d074051121d479023f00d04f31e2, type: 2}
+  poseActions:
+  - {fileID: 11400000, guid: 25d59551f978dec40aec8d3156730888, type: 2}
+  - {fileID: 11400000, guid: dfdab76bc1e264c4da8343c94019ae62, type: 2}
+  - {fileID: 11400000, guid: 6b13d074051121d479023f00d04f31e2, type: 2}
+  skeletonActions:
+  - {fileID: 11400000, guid: dfdab76bc1e264c4da8343c94019ae62, type: 2}
+  - {fileID: 11400000, guid: 6b13d074051121d479023f00d04f31e2, type: 2}
+  outActionArray:
+  - {fileID: 11400000, guid: ee01e9eddb72b0540ba204e2a271c439, type: 2}
+  fullPath: /actions/default
+  usage: single
+  inActions: {fileID: 11400000, guid: c20d15570a0668c4cbb607706cee9932, type: 2}
+  outActions: {fileID: 11400000, guid: 1ba1c1af16bde964998cb5552e591a05, type: 2}
